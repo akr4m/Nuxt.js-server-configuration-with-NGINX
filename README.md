@@ -72,3 +72,19 @@ sudo ln -sf /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/exam
 sudo nginx -t
 sudo systemctl restart nginx
 ```
+### Goto the content directory
+```ssh
+cd /var/www/example.com
+```
+##### Note: Clone or Paste My App data & Install the dependencies using
+```ssh
+npm install
+```
+##### Now Build
+```ssh
+npm run build
+```
+#### Create new pm2
+```ssh
+pm2 start npm --name "my-app-alias" -- start
+```
