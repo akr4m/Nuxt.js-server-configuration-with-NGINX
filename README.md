@@ -99,3 +99,7 @@ npm run build
 ```ssh
 pm2 start npm --name "my-app-alias" -- start
 ```
+
+```ssh
+pm2 start npm --name server -i max -- run start
+```
