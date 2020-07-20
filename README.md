@@ -97,7 +97,7 @@ npm run build
 ```
 #### Create new pm2
 ```ssh
-pm2 start npm --name "my-app-alias" -- start
+pm2 start npm --name "server" -- start
 ```
 
 ```ssh
