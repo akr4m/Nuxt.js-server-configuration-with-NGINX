@@ -95,6 +95,11 @@ npm install
 ```ssh
 npm run build
 ```
+
+```ssh
+sudo npm i -g zx
+sudo pm2 startup systemd
+```
 #### Create new pm2
 ```ssh
 pm2 start npm --name "server" -- start
